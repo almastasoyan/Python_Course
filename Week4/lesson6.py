@@ -39,5 +39,11 @@ z = (x.replace("a", y)).replace("e",y).replace("i",y).replace("o",y).replace("u"
 print(z)
 
 
+x = "5426137894562147"
+y = int(x) % 10000
+z = (len(x)-4)* "*"+ str(y)
+print(z)
+
+
 x = "1234"
 print((len(x) == 4 and 6) and (x.isdigit()) and ( not ' ' in x))
