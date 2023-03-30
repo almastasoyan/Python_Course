@@ -1,14 +1,13 @@
-# 1. Given a list, rotate the values clockwise by one (the last value is sent to the first position).
-# Check the examples for a better understanding.
-# Examples
-# [1, 2, 3, 4, 5] ➞ [5, 1, 2, 3, 4]
-# [6, 5, 8, 9, 7] ➞ [7, 6, 5, 8, 9]
-# [20, 15, 26, 8, 4] ➞ [4, 20, 15, 26]
+'''1. Given a list, rotate the values clockwise by one (the last value is sent to the first position).
+Check the examples for a better understanding.
+Examples
+[1, 2, 3, 4, 5] ➞ [5, 1, 2, 3, 4]
+[6, 5, 8, 9, 7] ➞ [7, 6, 5, 8, 9]
+[20, 15, 26, 8, 4] ➞ [4, 20, 15, 26]'''
 
-x = [6, 5, 8, 9, 7]
-print([x[-1], x[0:4]])
-
-
+x =[1, 2, 3, 4, 5]
+y = x[-1:] + x[:-1]
+print(y)
 
 
 
@@ -72,13 +71,13 @@ i = x[0] + x[1]
 print(len(set(i)))
 
 
-# '''6. Create a function that takes a dictionary of student names and returns a list of student names in alphabetical order.
-# Examples
-# {
-#   "Student 1" : "Steve",
-#   "Student 2" : "Becky",
-#   "Student 3" : "John"
-# } ➞ ["Becky", "John", "Steve"]'''
+'''6. Create a function that takes a dictionary of student names and returns a list of student names in alphabetical order.
+Examples
+{
+  "Student 1" : "Steve",
+  "Student 2" : "Becky",
+  "Student 3" : "John"
+} ➞ ["Becky", "John", "Steve"]'''
 
 
 x = {
